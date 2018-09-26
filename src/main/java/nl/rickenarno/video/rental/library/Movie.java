@@ -6,9 +6,6 @@ public class Movie {
     private int durationInMinutes;
     private boolean isRented;
 
-    public Movie() {
-    }
-
     public Movie(String title, int durationInMinutes) {
         this.title = title;
         this.durationInMinutes = durationInMinutes;
